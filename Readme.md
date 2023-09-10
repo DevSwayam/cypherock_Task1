@@ -3,7 +3,7 @@
 This command-line tool allows you to perform various tasks related to cryptocurrency wallets and transactions. It offers the following functionalities:
 
 1. **Create Wallet:** Create a new wallet with a name and password.<br>
-    ```Input for task1 = ```
+   ```Input for task1 = ```
    ```Output for task1 = ```
 3. **Import Wallet:** Import an existing wallet using a 12-word mnemonic phrase.<br>
     ``` Input for task2 = ```

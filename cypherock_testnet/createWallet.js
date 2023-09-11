@@ -63,7 +63,7 @@ async function createWallet(name, password) {
 
     /* For Creating a wallet on testnet */
     const response = await axios.post(
-      `https://api.blockcypher.com/v1/btc/test3/wallets/hd?token=${"594ceefc0f5c48029f792fee540e567b"}`,
+      `https://api.blockcypher.com/v1/btc/test3/wallets/hd?token=${API}`,
       JSON.stringify(data)
     );
     

@@ -1,5 +1,5 @@
 const axios = require('axios');
-const API = "594ceefc0f5c48029f792fee540e567b";
+const API = process.env.BLOCKCYPHER_API_KEY;
 
 async function getWalletViaToken() {
   try {
